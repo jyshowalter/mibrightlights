@@ -6,7 +6,7 @@ const Steps = () => {
       <div className="card bg-base-100 w-full sm:w-80 md:w-96 shadow-xl">
         <figure className="px-10 pt-10">
           <img
-            src="src/assets/ticket.png"
+            src="public\assets\ticket.png"
             alt="Tickets"
             className="rounded-xl"
           />
@@ -23,7 +23,7 @@ const Steps = () => {
       <div className="card bg-base-100 w-full sm:w-80 md:w-96 shadow-xl">
         <figure className="px-10 pt-10">
           <img
-            src="src/assets/toll-road.png"
+            src="public\assets\toll-road.png"
             alt="Go to gate"
             className="rounded-xl"
           />
@@ -39,7 +39,7 @@ const Steps = () => {
       <div className="card bg-base-100 w-full sm:w-80 md:w-96 shadow-xl">
         <figure className="px-10 pt-10">
           <img
-            src="src/assets/popcorn-box.png"
+            src="public\assets\popcorn-box.png"
             alt="Sit back and relax"
             className="rounded-xl"
           />
