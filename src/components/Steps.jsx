@@ -5,11 +5,7 @@ const Steps = () => {
     <div className="flex flex-col md:flex-row items-center justify-center min-h-screen gap-4 px-4">
       <div className="card bg-base-100 w-full sm:w-80 md:w-96 shadow-xl">
         <figure className="px-10 pt-10">
-          <img
-            src="public\assets\ticket.png"
-            alt="Tickets"
-            className="rounded-xl"
-          />
+          <img src="assets\ticket.png" alt="Tickets" className="rounded-xl" />
         </figure>
         <div className="card-body text-center py-4">
           <h2 className="card-title text-xl font-bold">Tickets</h2>
@@ -23,7 +19,7 @@ const Steps = () => {
       <div className="card bg-base-100 w-full sm:w-80 md:w-96 shadow-xl">
         <figure className="px-10 pt-10">
           <img
-            src="public\assets\toll-road.png"
+            src="assets\toll-road.png"
             alt="Go to gate"
             className="rounded-xl"
           />
@@ -39,7 +35,7 @@ const Steps = () => {
       <div className="card bg-base-100 w-full sm:w-80 md:w-96 shadow-xl">
         <figure className="px-10 pt-10">
           <img
-            src="public\assets\popcorn-box.png"
+            src="assets\popcorn-box.png"
             alt="Sit back and relax"
             className="rounded-xl"
           />
