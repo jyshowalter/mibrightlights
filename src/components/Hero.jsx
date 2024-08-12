@@ -15,7 +15,9 @@ const Hero = () => {
           <h1 className="mb-5 text-5xl font-bold">
             Michigan's Brightest Christmas Light Show
           </h1>
-          <button className="btn btn-primary">Buy Your Tickets Now</button>
+          <a href="https://app.gopassage.com/venues/7938">
+            <button className="btn btn-primary">Buy Your Tickets Now</button>
+          </a>
         </div>
       </div>
     </div>

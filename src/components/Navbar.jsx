@@ -26,16 +26,19 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>About</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="/about">About</a>
             </li>
             <li>
-              <a>FAQ</a>
+              <a href="/contact">Contact</a>
             </li>
             <li>
-              <a>Sponsors</a>
+              <a href="/FAQ">FAQ</a>
+            </li>
+            <li>
+              <a href="/sponsors">Sponsors</a>
             </li>
           </ul>
         </div>
@@ -44,21 +47,26 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>About</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a>FAQ</a>
+            <a href="/contact">Contact</a>
           </li>
           <li>
-            <a>Sponsors</a>
+            <a href="/faq">FAQ</a>
+          </li>
+          <li>
+            <a href="/sponsors">Sponsors</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">PURCHASE TICKETS</a>
+        <a href="https://app.gopassage.com/venues/7938" className="btn">
+          PURCHASE TICKETS
+        </a>
       </div>
     </div>
   );
