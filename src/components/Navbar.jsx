@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar absolute top-0 left-0 w-full z-10 bg-gradient-to-b from-black to-transparent">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,7 +26,9 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a href="/">Home</a>
+              <a href="/">
+                <img src="assets/logo.png" alt="Logo"></img>
+              </a>
             </li>
             <li>
               <a href="/about">About</a>
@@ -42,30 +44,35 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">MI Bright Lights</a>
+        <a href="/" className="">
+          <img className="h-32" src="assets/logo.png" alt="Logo"></img>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="/">Home</a>
+            <a href="/">HOME</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/about">ABOUT</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="/contact">CONTACT</a>
           </li>
           <li>
             <a href="/faq">FAQ</a>
           </li>
           <li>
-            <a href="/sponsors">Sponsors</a>
+            <a href="/sponsors">SPONSORS</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="https://app.gopassage.com/venues/7938" className="btn">
-          PURCHASE TICKETS
+        <a
+          href="https://app.gopassage.com/venues/7938"
+          className="btn text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80"
+        >
+          <span className="relative z-20">PURCHASE TICKETS</span>
         </a>
       </div>
     </div>

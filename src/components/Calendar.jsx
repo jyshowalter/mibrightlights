@@ -5,13 +5,13 @@ const Calendar = () => {
     <div className="carousel carousel-end rounded-box">
       <div className="carousel-item">
         <img
-          src="assets\pngtree-d-rendering-of-neon-calendar-icon-with-straight-lines-for-ui-picture-image_5585036.jpg"
+          src="assets\_64d853d2-d8aa-4baf-a262-1621f1881baa.jpg"
           alt="Drink"
         />
       </div>
       <div className="carousel-item">
         <img
-          src="assets\pngtree-d-rendering-of-neon-calendar-icon-with-straight-lines-for-ui-picture-image_5585036.jpg"
+          src="assets\_64d853d2-d8aa-4baf-a262-1621f1881baa.jpg"
           alt="Drink"
         />
       </div>
