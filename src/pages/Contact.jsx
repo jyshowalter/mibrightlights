@@ -9,7 +9,7 @@ const Contact = () => {
             <div class="mb-5">
               <label
                 for="name"
-                class="mb-3 block text-base font-medium text-white-100"
+                class="mb-3 block text-base font-medium text-success"
               >
                 Name
               </label>
@@ -24,7 +24,7 @@ const Contact = () => {
             <div class="mb-5">
               <label
                 for="email"
-                class="mb-3 block text-base font-medium text-white-100"
+                class="mb-3 block text-base font-medium text-success"
               >
                 Email Address
               </label>
@@ -39,7 +39,7 @@ const Contact = () => {
             <div class="mb-5">
               <label
                 for="subject"
-                class="mb-3 block text-base font-medium text-white-100"
+                class="mb-3 block text-base font-medium text-success"
               >
                 Subject
               </label>
@@ -54,7 +54,7 @@ const Contact = () => {
             <div class="mb-5">
               <label
                 for="message"
-                class="mb-3 block text-base font-medium text-white-100"
+                class="mb-3 block text-base font-medium text-success"
               >
                 Message
               </label>
@@ -67,7 +67,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div>
-              <button class="btn text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80">
+              <button class="btn w-30 h-10 flex justify-center items-center text-sky-200 border-2 rounded-lg border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
                 Submit
               </button>
             </div>

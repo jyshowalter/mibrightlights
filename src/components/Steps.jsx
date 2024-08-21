@@ -11,7 +11,11 @@ const Steps = () => {
           <h2 className="card-title text-xl font-bold justify-center">
             Tickets
           </h2>
-          <p>
+          <img
+            className="card-title text-xl font-bold justify-center"
+            src="assets\neontickets.jpg"
+          ></img>
+          <p className="text-info">
             Each vehicle needs a ticket for entry. Recommend purchasing tickets
             online to secure your spot. Click the "Purchase Tickets" button to
             buy your ticket(s). Note one ticket for one vehicle entry.
@@ -26,7 +30,7 @@ const Steps = () => {
           <h2 className="card-title text-xl font-bold justify-center">
             Go to gate
           </h2>
-          <p>
+          <p className="text-info">
             After you purchase your ticket(s), head to our location at Eloise
             Asylum. You will redeem your ticket(s) at the gate.
           </p>
@@ -44,7 +48,7 @@ const Steps = () => {
           <h2 className="card-title text-xl font-bold justify-center">
             Sit back and relax
           </h2>
-          <p>
+          <p className="text-info">
             Once you're here, it's time for the whole family to experience the
             magical lights that are Mi Bright Lights! Sit back, relax, and enjoy
             the festive music and brilliant lights.
