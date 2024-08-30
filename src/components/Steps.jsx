@@ -2,7 +2,7 @@ import React from "react";
 
 const Steps = () => {
   return (
-    <div className="flex flex-col md:flex-row items-start justify-center pt-10 pb-32">
+    <div className="flex flex-col lg:flex-row items-start justify-center align-center pt-10 pb-32">
       <div className="card bg-base-100 sm:w-80 md:w-96 card-bordered border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f] mx-20 mt-12">
         <figure className="px-20 md:px-32 lg:px-32 pt-20">
           <img
