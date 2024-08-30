@@ -3,7 +3,7 @@ import React from "react";
 const Sponsors = () => {
   return (
     <div>
-      <div className="bg-base-100 py-24 pt-24 sm:py-32">
+      <div className="bg-base-100 py-24 pt-36 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-center text-lg font-semibold leading-8 text-white-100">
             We couldn't do it without our sponsors!
