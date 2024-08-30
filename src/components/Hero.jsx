@@ -10,12 +10,13 @@ const Hero = () => {
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-neutral-content text-center">
-        <div className="max-w-md">
+      <div className="hero-content text-neutral-content text-center flex flex-col items-center justify-center min-h-screen">
+        <div className="max-w-md pb-32">
           {/* <h1 className="mb-5 text-7xl font-heading text-secondary">
             Michigan's Brightest Christmas Light Show
           </h1> */}
-          <img className="mb-4 w-full" src="assets\herotext.png"></img>
+          <img className="pb-20" src="assets\comingnov2024.png"></img>
+          <img className="mb-4 max-w" src="assets\herotext.png"></img>
           <a href="https://app.gopassage.com/venues/7938">
             <button className="btn px-5 py-2.5 me-2 mb-2 w-30 h-10 items-center text-sky-200 border-2 rounded-lg border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]">
               Buy Your Tickets Now
