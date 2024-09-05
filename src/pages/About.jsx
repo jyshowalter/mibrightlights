@@ -18,18 +18,24 @@ const About = () => {
                 <p className="mt-6 text-xl leading-8 text-info">
                   We started out creating magical memories for countless
                   families in southeast Michigan. The Bostick Family Light Show
-                  quickly became a must see event of the season.
+                  quickly became a must see event of the season. Featured
+                  numerous times on news programs like Good Morning America and
+                  the Tonight Show, this Sheridan St house quickly became overan
+                  with traffic. After 4 years we have outgrown our home show
+                  location and have elevated our show to new heights.
                 </p>
                 <p className="mt-6 text-xl leading-8 text-info">
-                  Featured numerous times on news programs like Good Morning
-                  America and the Tonight Show, this Sheridan St house quickly
-                  became overan with traffic. After 4 years we have outgrown our
-                  home show location and have elevated our show to new heights.
-                </p>
-                <p className="mt-6 text-xl leading-8 text-info">
-                  Partnering with Mynor Mendoza from YourPixelStore.com the
-                  Bostick's and Mynor contacted Eloise Aslyum to bring a brand
-                  new one of a kind event to the area.
+                  Beginning in January 2024 we began searching for a new
+                  location. Seeking a location that is close to home and still
+                  accessible for our community we came across a post for The
+                  Iconic Eloise. Once we saw they were branching out of the
+                  Haunted House and Escape Room scene we contacted the owners.
+                  We immediately hit it off and knew this was where we wanted to
+                  move our show. Partnering with our good friend Mynor Mendoza
+                  from Yourpixelstore.com, we began designing and building the
+                  show. Our talents together allowed us to bring our creative
+                  vision to life. We are looking forward to bringing the
+                  community a new family tradition each holiday season!
                 </p>
               </div>
             </div>

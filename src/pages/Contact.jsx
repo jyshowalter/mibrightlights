@@ -71,10 +71,10 @@ const Contact = () => {
                 Have any questions? Feel free to email directly at
                 <a
                   className="text-blue-400"
-                  href="mailto: kyle@mibrightlights.com"
+                  href="mailto: info@mibrightlights.com"
                 >
                   {" "}
-                  kyle@mibrightlights.com{" "}
+                  info@mibrightlights.com{" "}
                 </a>
               </p>
             </div>
