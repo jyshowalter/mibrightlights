@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contact = () => {
+const Careers = () => {
   return (
     <>
       <div class="flex items-center justify-center p-12 pt-48">
@@ -74,7 +74,7 @@ const Contact = () => {
           </form> */}
           <div>
             <p className="mb-48">
-              Have any questions? Feel free to email directly at
+              Want to work with us? Email your resume to
               <a
                 className="text-blue-400"
                 href="mailto: info@mibrightlights.com"
@@ -90,4 +90,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Careers;

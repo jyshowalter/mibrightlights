@@ -76,7 +76,7 @@ const Footer = () => {
         </nav>
         <aside>
           <p>Located at: 30712 Michigan Ave Westland, MI 48186</p>
-          <p>Starting Black Friday</p>
+          <p>Starting 11/22/24</p>
           <p>HOURS OF OPERATION 5:00pm to 10:00pm Every Day</p>
           <p>
             Copyright © {new Date().getFullYear()} - All rights reserved by MI

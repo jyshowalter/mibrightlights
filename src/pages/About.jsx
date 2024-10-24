@@ -37,6 +37,10 @@ const About = () => {
                   vision to life. We are looking forward to bringing the
                   community a new family tradition each holiday season!
                 </p>
+                <p className="mt-6 text-xl leading-8 text-info">
+                  Check out our layout for the 2024 season!
+                </p>
+                <img className="mt-6" src="assets\layout.jpg"></img>
               </div>
             </div>
           </div>

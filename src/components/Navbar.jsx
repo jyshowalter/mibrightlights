@@ -40,6 +40,9 @@ const Navbar = () => {
             <li>
               <a href="/sponsors">SPONSORS</a>
             </li>
+            <li>
+              <a href="/careers">CAREERS</a>
+            </li>
           </ul>
         </div>
         <a href="/" className="">
@@ -62,6 +65,9 @@ const Navbar = () => {
           </li>
           <li>
             <a href="/sponsors">SPONSORS</a>
+          </li>
+          <li>
+            <a href="/careers">CAREERS</a>
           </li>
         </ul>
       </div>
