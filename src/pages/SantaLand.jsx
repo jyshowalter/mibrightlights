@@ -11,6 +11,9 @@ const SantaLand = () => {
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-secondary sm:text-4xl">
                   Santa Land Is Here!
                 </h1>
+                <h2 className="mt-2 text-xl tracking-tight text-secondary sm:text-4xl">
+                  Note that Santa Land closes 12/23 for the year.
+                </h2>
                 <p className="mt-6 text-xl leading-8 text-info">
                   Santa Land is free to enter and offers an enchanting,
                   immersive walk-through experience filled with delightful photo
@@ -21,12 +24,63 @@ const SantaLand = () => {
                   or warm up in our heated tent while enjoying classic holiday
                   movies for kids.
                 </p>
-                <p className="mt-6 text-xl leading-8 text-info">
+                <p className="mt-6 mb-10 text-xl leading-8 text-info">
                   For an extra festive touch, we also offer a variety of treats
                   and activities available for purchase, including Photos with
                   Santa, Ice Skating, S'more Kits, Cookies, Hot Cocoa, Coffee,
                   and exclusive holiday merchandise.
                 </p>
+
+                <div className="relative -ml-12 -mt-12 p-12 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                  <img
+                    alt=""
+                    src="assets/santaland2.jpg"
+                    className="w-full max-w-full h-auto rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 mx-auto block"
+                  />
+                </div>
+                <div className="relative -ml-12 -mt-12 p-12 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                  <img
+                    alt=""
+                    src="assets/santaland3.jpg"
+                    className="w-full max-w-full h-auto rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 mx-auto block"
+                  />
+                </div>
+                <div className="relative -ml-12 -mt-12 p-12 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                  <img
+                    alt=""
+                    src="assets/santaland4.jpg"
+                    className="w-full max-w-full h-auto rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 mx-auto block"
+                  />
+                </div>
+                <div className="relative -ml-12 -mt-12 p-12 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                  <img
+                    alt=""
+                    src="assets/santaland5.jpg"
+                    className="w-full max-w-full h-auto rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 mx-auto block"
+                  />
+                </div>
+                <div className="relative -ml-12 -mt-12 p-12 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                  <img
+                    alt=""
+                    src="assets/santaland6.jpg"
+                    className="w-full max-w-full h-auto rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 mx-auto block"
+                  />
+                </div>
+                <div className="relative -ml-12 -mt-12 p-12 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                  <img
+                    alt=""
+                    src="assets/santaland7.jpg"
+                    className="w-full max-w-full h-auto rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 mx-auto block"
+                  />
+                </div>
+                <div className="relative -ml-12 -mt-12 p-12 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                  <img
+                    alt=""
+                    src="assets/santaland8.jpg"
+                    className="w-full max-w-full h-auto rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 mx-auto block"
+                  />
+                </div>
+
                 <script
                   type="text/javascript"
                   src="//tag.brandcdn.com/autoscript/eloisemibrightlights_vgtsuk1rmuvxvfu9/Eloise_MI_Bright_Lights.js"

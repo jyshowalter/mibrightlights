@@ -15,14 +15,13 @@ function gtag_report_conversion(url) {
 
 const Navbar = () => {
   const handlePurchaseClick = (event) => {
-    event.preventDefault(); // Prevent the default anchor behavior
     gtag_report_conversion(
       "https://app.gopassage.com/events/mi-bright-lights/event_times"
     );
   };
 
   return (
-    <div className="navbar absolute top-0 left-0 w-full z-10 bg-gradient-to-b from-black to-transparent">
+    <div className="navbar fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-black to-transparent">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,7 +42,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-40 mt-3 w-52 p-2 shadow"
           >
             <li>
               <a href="/">HOME</a>
@@ -58,18 +57,12 @@ const Navbar = () => {
               <a href="/FAQ">FAQ</a>
             </li>
             <li>
-              <a href="/sponsors">SPONSORS</a>
-            </li>
-            <li>
-              <a href="/careers">CAREERS</a>
-            </li>
-            <li>
               <a href="santaland">SANTA LAND</a>
             </li>
           </ul>
         </div>
         <a href="/" className="">
-          <img className="h-32" src="assets\logoupdated.png" alt="Logo"></img>
+          <img className="h-32" src="assets/logoupdated.png" alt="Logo"></img>
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -87,12 +80,6 @@ const Navbar = () => {
             <a href="/faq">FAQ</a>
           </li>
           <li>
-            <a href="/sponsors">SPONSORS</a>
-          </li>
-          <li>
-            <a href="/careers">CAREERS</a>
-          </li>
-          <li>
             <a href="santaland">SANTA LAND</a>
           </li>
         </ul>
@@ -100,6 +87,8 @@ const Navbar = () => {
       <div className="navbar-end">
         <a
           href="https://app.gopassage.com/events/mi-bright-lights/event_times"
+          target="_blank"
+          rel="noopener noreferrer"
           onClick={handlePurchaseClick}
           className="btn w-30 h-10 flex justify-center items-center text-sky-200 border-2 rounded-lg border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]"
         >
