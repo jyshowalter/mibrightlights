@@ -12,6 +12,10 @@ const Homepage = () => {
       <AboutHome />
       <MIBrightLights />
       <Map />
+      <script
+        type="text/javascript"
+        src="//tag.brandcdn.com/autoscript/eloisemibrightlights_vgtsuk1rmuvxvfu9/Eloise_MI_Bright_Lights.js"
+      ></script>
     </div>
   );
 };

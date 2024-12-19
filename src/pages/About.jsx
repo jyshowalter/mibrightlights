@@ -40,6 +40,10 @@ const About = () => {
                 <p className="mt-6 text-xl leading-8 text-info">
                   Check out our layout for the 2024 season!
                 </p>
+                <script
+                  type="text/javascript"
+                  src="//tag.brandcdn.com/autoscript/eloisemibrightlights_vgtsuk1rmuvxvfu9/Eloise_MI_Bright_Lights.js"
+                ></script>
                 <img className="mt-6" src="assets\layout.jpg"></img>
               </div>
             </div>

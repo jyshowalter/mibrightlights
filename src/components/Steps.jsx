@@ -36,9 +36,8 @@ const Steps = () => {
           </h2>
           <p className="text-info">
             After you purchase your ticket(s), head to our location at The
-            Iconic Eloise Venue. Use the East entrance located off Henry Ruff,
-            just north of Michigan Ave. You will redeem your ticket(s) at the
-            gate
+            Iconic Eloise. Use the East entrance located off Henry Ruff, just
+            north of Michigan Ave. You will redeem your ticket(s) at the gate
           </p>
         </div>
       </div>

@@ -28,6 +28,10 @@ const Sponsors = () => {
               src="assets/platinum.jpg"
               className="w-full object-contain lg:max-h-[800px]"
             />
+            <script
+              type="text/javascript"
+              src="//tag.brandcdn.com/autoscript/eloisemibrightlights_vgtsuk1rmuvxvfu9/Eloise_MI_Bright_Lights.js"
+            ></script>
           </div>
         </div>
       </div>

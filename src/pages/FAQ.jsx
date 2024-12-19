@@ -7,6 +7,15 @@ const FAQ = () => {
         <div className="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" defaultChecked />
           <div className="collapse-title text-xl font-medium">
+            What radio station do I tune to?
+          </div>
+          <div className="collapse-content">
+            <p className="text-success">100.1 FM</p>
+          </div>
+        </div>
+        <div className="collapse collapse-arrow join-item border-base-300 border">
+          <input type="radio" name="my-accordion-4" />
+          <div className="collapse-title text-xl font-medium">
             Is the price per person or per vehicle?
           </div>
           <div className="collapse-content">
@@ -145,6 +154,10 @@ const FAQ = () => {
           <div className="collapse-content">
             <p className="text-success">No, tickets are single-use only.</p>
           </div>
+          <script
+            type="text/javascript"
+            src="//tag.brandcdn.com/autoscript/eloisemibrightlights_vgtsuk1rmuvxvfu9/Eloise_MI_Bright_Lights.js"
+          ></script>
         </div>
       </div>
     </>

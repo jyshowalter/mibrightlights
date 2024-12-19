@@ -10,6 +10,7 @@
   <title>MI Bright Lights</title>
 
   <script src="https://app.gopassage.com/widgets/passage_widgets.js"></script>
+
   <script type="text/javascript">
     window.passageWidgets.createCheckoutWidget({ "modal": true, "iframeSrc": "https://app.gopassage.com/events/25151", "position": "bottom-right", "buttonColor": "#ffffff", "buttonBackground": "#E52E29", "buttonShape": "rounded", "buttonText": "Buy Tickets", "buttonBorder": "" });
   </script>
@@ -18,6 +19,21 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-16785110478/OnkECM2EvOwZEM7r4cM-',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
+
 </body>
 
 </html>

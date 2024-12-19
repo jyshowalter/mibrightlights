@@ -1,6 +1,26 @@
 import React from "react";
 
+function gtag_report_conversion(url) {
+  const callback = function () {
+    if (typeof url !== "undefined") {
+      window.location = url;
+    }
+  };
+  window.gtag("event", "conversion", {
+    send_to: "AW-16785110478/OnkECM2EvOwZEM7r4cM-",
+    event_callback: callback,
+  });
+  return false;
+}
+
 const Navbar = () => {
+  const handlePurchaseClick = (event) => {
+    event.preventDefault(); // Prevent the default anchor behavior
+    gtag_report_conversion(
+      "https://app.gopassage.com/events/mi-bright-lights/event_times"
+    );
+  };
+
   return (
     <div className="navbar absolute top-0 left-0 w-full z-10 bg-gradient-to-b from-black to-transparent">
       <div className="navbar-start">
@@ -43,6 +63,9 @@ const Navbar = () => {
             <li>
               <a href="/careers">CAREERS</a>
             </li>
+            <li>
+              <a href="santaland">SANTA LAND</a>
+            </li>
           </ul>
         </div>
         <a href="/" className="">
@@ -69,11 +92,15 @@ const Navbar = () => {
           <li>
             <a href="/careers">CAREERS</a>
           </li>
+          <li>
+            <a href="santaland">SANTA LAND</a>
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
         <a
           href="https://app.gopassage.com/events/mi-bright-lights/event_times"
+          onClick={handlePurchaseClick}
           className="btn w-30 h-10 flex justify-center items-center text-sky-200 border-2 rounded-lg border-sky-200 shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f]"
         >
           <span className="relative z-20">PURCHASE TICKETS</span>
