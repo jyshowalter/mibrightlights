@@ -21,7 +21,11 @@ const Hero = () => {
           {/* <h1 className="mb-5 text-7xl font-heading text-secondary">
             Michigan's Brightest Christmas Light Show
           </h1> */}
-          <img className="pt-20" src="assets/opendaily.png" alt="Open Daily" />
+          <img
+            className="pt-20 lg:max-w-3xl"
+            src="assets/closed.png"
+            alt="Now Closed For The Season"
+          />
           <img
             className="mb-4 max-w lg:max-w-5xl"
             src="assets/herotext.png"

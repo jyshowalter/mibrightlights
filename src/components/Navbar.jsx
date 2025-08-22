@@ -56,9 +56,9 @@ const Navbar = () => {
             <li>
               <a href="/FAQ">FAQ</a>
             </li>
-            <li>
+            {/* <li>
               <a href="santaland">SANTA LAND</a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <a href="/" className="">
@@ -79,9 +79,9 @@ const Navbar = () => {
           <li>
             <a href="/faq">FAQ</a>
           </li>
-          <li>
+          {/* <li>
             <a href="santaland">SANTA LAND</a>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="navbar-end">

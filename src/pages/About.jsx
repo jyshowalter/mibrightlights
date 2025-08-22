@@ -26,16 +26,11 @@ const About = () => {
                 </p>
                 <p className="mt-6 text-xl leading-8 text-info">
                   Beginning in January 2024 we began searching for a new
-                  location. Seeking a location that is close to home and still
-                  accessible for our community we came across a post for The
-                  Iconic Eloise. Once we saw they were branching out of the
-                  Haunted House and Escape Room scene we contacted the owners.
-                  We immediately hit it off and knew this was where we wanted to
-                  move our show. Partnering with our good friend Mynor Mendoza
-                  from Yourpixelstore.com, we began designing and building the
-                  show. Our talents together allowed us to bring our creative
-                  vision to life. We are looking forward to bringing the
-                  community a new family tradition each holiday season!
+                  location. Partnering with our good friend Mynor Mendoza from
+                  Yourpixelstore.com, we began designing and building the show.
+                  Our talents together allowed us to bring our creative vision
+                  to life. We are looking forward to bringing the community a
+                  new family tradition each holiday season!
                 </p>
                 <p className="mt-6 text-xl leading-8 text-info">
                   Check out our layout for the 2024 season!
