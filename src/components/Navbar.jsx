@@ -54,7 +54,7 @@ const Navbar = () => {
               <a href="/contact">CONTACT</a>
             </li>
             <li>
-              <a href="/FAQ">FAQ</a>
+              <a href="/faq">FAQ</a>
             </li>
             {/* <li>
               <a href="santaland">SANTA LAND</a>
